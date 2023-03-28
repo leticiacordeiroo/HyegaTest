@@ -1,0 +1,22 @@
+.home {
+  background-image: url("/Bg.png");
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding: 0px 10% 0px 10%;
+}
+.home {
+  @media screen and (max-width: 400px) {
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-image: none;
+  }
+}
+
+.other {
+  padding: 0px 10% 0px 10%;
+}

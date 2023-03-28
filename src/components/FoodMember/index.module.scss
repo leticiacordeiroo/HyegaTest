@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  padding-top: 129px;
+  margin-top: 119px;
+  background-image: url("/rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin: 0px 10px;
+  }
+}
+
+.title {
+  background-image: url("/unsplash_x1ZZWyDU8sU.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  h1 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0em;
+  }
+
+  span {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    display: inline-block;
+    max-width: 412px;
+  }
+}
+
+.card {
+  display: flex;
+  margin-top: 56px;
+  padding: 0px 300px 0px 300px;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+.imageWrapper {
+  padding: 0 12px 0 12px;
+}
+.image img {
+  height: 312px;
+}
+.textTitle {
+  font-family: "Helvetica";
+  font-size: 20px;
+  line-height: 28px;
+  color: #4f4f4f;
+  text-align: center;
+}
+
+.textDescription {
+  font-family: "Helvetica";
+  font-size: 16px;
+  line-height: 24px;
+  color: #828282;
+  text-align: center;
+}

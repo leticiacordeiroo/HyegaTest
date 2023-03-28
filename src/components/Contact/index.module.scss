@@ -1,0 +1,104 @@
+.container {
+  background-color: #a8bca14d;
+  padding: 120px 0px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    margin-bottom: 16px;
+  }
+
+  span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: block;
+  }
+}
+
+.title {
+  display: flex;
+}
+
+.foodtuck,
+.contact,
+.links,
+.instagram {
+  padding: 0 20px;
+}
+
+.links {
+  p {
+    margin-top: 16px;
+  }
+}
+
+.foodtuck {
+  p {
+    width: 268px;
+    display: flex;
+    margin: 10px 0 10px;
+  }
+
+  input {
+    background: #ffffff;
+    border-radius: 6px 0 0px 6px;
+    width: 240px;
+    border: #ffffff;
+    height: 40px;
+    padding: 9px 20px;
+  }
+
+  input:focus {
+    outline: none !important;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+  }
+
+  button {
+    background: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 0 6px 6px 0;
+    border: 1px var(--primary-color);
+  }
+}
+.contact {
+  p {
+    display: flex;
+    text-align: center;
+    margin-top: 16px;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}

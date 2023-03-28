@@ -1,0 +1,50 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+  gap: 10px;
+  width: 192px;
+  height: 58px;
+  left: 301px;
+  background: var(--primary-color);
+  border: var(--primary-color);
+  border-radius: 6px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin: 10px;
+}
+
+.outlined {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 48px;
+  gap: 10px;
+  height: 58px;
+  left: 301px;
+  border-radius: 6px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  cursor: pointer;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin: 10px;
+
+  background: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
