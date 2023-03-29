@@ -15,7 +15,7 @@ git clone https://github.com/leticiacordeiroo/HyegaTest
 2. Acesse o diretório do projeto:
 
 ```bash
-cd seu-repositorio
+cd HyegaTest
 ```
 
 3. Instale as dependências:
