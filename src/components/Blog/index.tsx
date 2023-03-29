@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Blog() {
   return (
     <>
-      <div className={style.container}>
+      <div className={style.container} id="blog">
         <h1>Latest news & Blog</h1>
         <span className={style.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed

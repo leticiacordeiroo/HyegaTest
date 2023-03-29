@@ -24,8 +24,16 @@ export default function Carousel() {
 
   return (
     <>
+      <div className={style.content}>
+        <h1>Food Category</h1>
+        <span className={style.text}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
+          pharetra dictum neque massa congue
+        </span>
+        <div className={style.carousel}>{/*carousel*/}</div>
+      </div>
       <div className={style.container}>
-        <button className={style.cardButton} onClick={handlePrev}>
+        <button className={style.cardButtonPrev} onClick={handlePrev}>
           <Image src={prev} alt="scroll to prev" />
         </button>
         <div className={style.slider} ref={carousel}>
@@ -39,7 +47,7 @@ export default function Carousel() {
             </div>
           ))}
         </div>
-        <button className={style.cardButton} onClick={handleNext}>
+        <button className={style.cardButtonNext} onClick={handleNext}>
           <Image src={next} alt="scroll to next" />
         </button>
       </div>

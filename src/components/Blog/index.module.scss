@@ -2,6 +2,20 @@
   margin-top: 144px;
   text-align: center;
 
+  span {
+    color: #828282;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    max-width: 412px;
+  }
+
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -49,11 +63,13 @@
 .title {
   font-family: "Helvetica";
   font-size: 20px;
+  font-weight: bold;
   height: 56px;
   width: 384px;
   line-height: 28px;
   color: #333333;
-  padding: 16px 0 16px 0;
+  padding: 16px 16px 16px 24px;
+  text-align: left;
 }
 
 .textCard {
@@ -63,11 +79,14 @@
   color: #4f4f4f;
   padding: 16px 0 16px 0;
   width: 384px;
+  padding: 16px 16px 16px 24px;
+  text-align: left;
 }
 
 .readMore {
   display: flex;
   padding: 16px 0 16px 0;
+  padding: 16px 16px 16px 24px;
 
   p {
     font-family: "Helvetica";

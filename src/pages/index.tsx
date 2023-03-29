@@ -2,7 +2,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Navbar from "@/components/Navbar";
 import Featured from "@/components/Featured";
-import Category from "@/components/Category";
 import Carousel from "@/components/Carousel";
 import Choose from "@/components/Choose";
 import Partners from "@/components/Partners";
@@ -27,12 +26,16 @@ export default function Home() {
         <Navbar />
         <Featured />
         <About />
-        <Category />
+      </div>
+      <div className={styles.carousel}>
         <Carousel />
+      </div>
+      <div className={styles.other}>
         <Choose />
         <FoodMenu />
       </div>
       <FoodMember />
+
       <div className={styles.other}>
         <Testimonials />
         <Blog />

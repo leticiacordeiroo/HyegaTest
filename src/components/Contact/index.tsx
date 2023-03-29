@@ -28,7 +28,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className={style.container}>
+      <div className={style.container} id="contact">
         <div className={style.footer}>
           <div className={style.foodtuck}>
             <span className={style.title}>

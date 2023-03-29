@@ -1,3 +1,15 @@
+.content {
+  text-align: center;
+  justify-content: center;
+  margin-top: 126px;
+
+  span {
+    margin-top: 8px;
+    text-align: center;
+    display: inline-block;
+    max-width: 418px;
+  }
+}
 .container {
   display: flex;
   align-items: center;
@@ -5,6 +17,11 @@
   @media screen and (max-width: 960px) {
     display: none;
   }
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 56px;
 }
 
 .slider {
@@ -38,16 +55,28 @@
   text-align: center;
 }
 
-.cardButton {
+.cardButtonPrev {
   display: flex;
-  justify-content: space-between;
+  background: rgba(25, 90, 0, 0.3);
+  border: 1px solid rgba(25, 90, 0, 0.3);
+  border-radius: 4px;
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+  padding: 18px 20px 0;
 
+  cursor: pointer;
+}
+
+.cardButtonNext {
+  display: flex;
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
   width: 54px;
   height: 54px;
+  cursor: pointer;
+  padding: 18px 20px 0;
 
   cursor: pointer;
 }

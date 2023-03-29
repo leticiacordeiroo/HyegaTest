@@ -2,6 +2,7 @@ import style from "./index.module.scss";
 import logo from "../../../public/logo.png";
 import user from "../../../public/user.png";
 import search from "../../../public/search.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -18,13 +19,37 @@ export default function Navbar() {
                 <a>Home</a>
               </li>
               <li className={style.navItem}>
-                <a>Sobre</a>
+                <Link
+                  to="about-us"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Sobre
+                </Link>
               </li>
               <li className={style.navItem}>
-                <a>Blog</a>
+                <Link
+                  to="blog"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Blog
+                </Link>
               </li>
               <li className={style.navItem}>
-                <a>Contato</a>
+                <Link
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                  Contato
+                </Link>
               </li>
             </ul>
 

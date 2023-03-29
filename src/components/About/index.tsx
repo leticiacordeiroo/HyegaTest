@@ -5,13 +5,13 @@ import food3 from "../../../public/food3.png";
 import about from "../../../public/about.png";
 
 import Image from "next/image";
-import { Button } from "../../components/Button";
+import { Button } from "../Button";
 import { ButtonPlay } from "../ButtonPlay";
 
 export default function About() {
   return (
     <>
-      <div className={style.container}>
+      <div className={style.container} id="about-us">
         <div className={style.image}>
           <div className={style.firstImage}>
             <Image src={food1} alt="food" />

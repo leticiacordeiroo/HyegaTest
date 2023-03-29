@@ -1,5 +1,4 @@
 .container {
-  display: grid;
   text-align: center;
   justify-content: center;
   margin-top: 126px;
@@ -10,19 +9,30 @@
     justify-content: center;
     align-items: center;
     text-align: start;
-    margin: 0px 10px;
+  }
+
+  span {
+    margin-top: 8px;
+    text-align: center;
+    display: inline-block;
+    max-width: 418px;
   }
 }
 
 .divisor {
   border: 1px solid #e0e0e0;
+  margin-top: 108px;
+  @media screen and (max-width: 960px) {
+    margin-top: 0;
+  }
 }
+
 .cardList {
   display: flex;
   justify-content: center;
   text-align: initial;
   align-items: center;
-
+  margin-top: 48px;
   @media screen and (max-width: 960px) {
     flex-direction: column;
   }
@@ -32,23 +42,38 @@
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px dashed #e0e0e0;
-  margin: 10px;
+  margin: 40px 0 40px 32px;
+
+  @media screen and (max-width: 960px) {
+    margin: 25px 0 0px 0px;
+  }
 }
 
 .listText {
   display: grid;
 
   .text {
-    font-family: "Helvetica";
-    font-size: 20px;
     line-height: 32px;
     color: #333333;
-    width: 282px;
+    width: 648px;
+
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    @media screen and (max-width: 960px) {
+      width: 186px;
+    }
   }
 
   .description {
     font-size: 16px;
-    width: 394px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
   }
 
   @media screen and (max-width: 960px) {
@@ -63,6 +88,7 @@
 
   p {
     color: var(--primary-color);
+    font-size: 24px;
   }
 
   @media screen and (max-width: 960px) {
