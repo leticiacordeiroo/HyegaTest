@@ -1,4 +1,4 @@
-## Projeto FrontEnd utilizando React com Next.js e Firebase
+## Projeto FrontEnd utilizando React JS com Next.js e Firebase
 
 Este projeto consiste em uma landingpage de um restaurante com Menu e Blog, desenvolvido utilizando React com Next.js e integração com o Firebase para o envio de emails. O design do projeto é baseado em um protótipo criado no Figma e é responsivo, se adaptando a diferentes tamanhos de tela.
 
@@ -38,7 +38,7 @@ npm run dev or yarn dev
 
 O projeto consiste em uma página inicial com o Menu e o BLog de um restaurante. Também consiste um campo de email e um botão de inscrição para newsletter no footer da página. Quando o usuário preenche o formulário e clica no botão de inscrição, o email é enviado para o Firebase, salvando esse e-mail na base de dados.
 
-O projeto é responsivo e se adapta a diferentes tamanhos de tela, graças ao uso de técnicas de design responsivo.
+O projeto é responsivo e se adapta a diferentes tamanhos de tela.
 
 ## Tecnologias utilizadas
 
