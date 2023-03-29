@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FoodMember() {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="team">
       <div className={style.title}>
         <>
           <h1>Team Member</h1>

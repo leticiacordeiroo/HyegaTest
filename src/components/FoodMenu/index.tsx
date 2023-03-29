@@ -5,7 +5,7 @@ import style from "./index.module.scss";
 export default function FoodMenu() {
   return (
     <>
-      <div className={style.container}>
+      <div className={style.container} id="menu">
         <h1>Our Food Menu</h1>
         <span className={style.text}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed

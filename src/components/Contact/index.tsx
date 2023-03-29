@@ -5,6 +5,8 @@ import phone from "../../../public/phone.png";
 import envelope from "../../../public/envelopeSimpleOpen.png";
 import clock from "../../../public/clock.png";
 import send from "../../../public/send.png";
+import instagram from "../../../public/group.png";
+import { Link, animateScroll as scroll } from "react-scroll";
 import style from "./index.module.scss";
 import Image from "next/image";
 import { addDoc, collection } from "firebase/firestore";
@@ -68,15 +70,56 @@ export default function Contact() {
 
           <div className={style.links}>
             <span className="title">Links</span>
-            <p>About us</p>
-            <p>Contact Us</p>
-            <p>Our Menu</p>
-            <p>Team</p>
+            <p>
+              <Link
+                to="about-us"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About Us
+              </Link>
+            </p>
+            <p>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Contact Us
+              </Link>
+            </p>
+            <p>
+              <Link
+                to="menu"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Our Menu
+              </Link>
+            </p>
+            <p>
+              <Link
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Team
+              </Link>
+            </p>
             <p>FAQ</p>
           </div>
 
           <div className={style.instagram}>
             <span className="title">Instagram Gallery</span>
+            <Image src={instagram} alt="instagram" />
           </div>
         </div>
       </div>
